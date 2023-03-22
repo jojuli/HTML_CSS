@@ -14,4 +14,4 @@
 |Artículo|Contenido independiente de cualquier sección|`<article></article>`|
 |Figura|Etiqueta especifica para insertar figuras, puede tener una descripción con `<figcaption>`|`<figure></figure>`|
 |Apoyo|Contenido de aislado o restante de la página|`<aside></aside`|
-|Pie de Página|es utilizado para informaciones, derechos de autores, enlaces|`<footer></footer>|
+|Pie de Página|es utilizado para informaciones, derechos de autores, enlaces|`<footer></footer> |
