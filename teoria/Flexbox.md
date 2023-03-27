@@ -63,4 +63,11 @@ Ejemplo:
 Ejemplo:
 ``.container  {  align-items: stretch | flex-start | flex-end | center | baseline | first baseline | last baseline | start | end | self-start | self-end +  ... safe | unsafe;  }``
 
+***[Align items](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-align-content)***
+Esto alinea las líneas de un contenedor flexible cuando hay espacio adicional en el eje transversal, de forma similar a como se `justify-content`alinean los elementos individuales dentro del eje principal.
 
+
+[enter image description here](https://github.com/jfisol/HTML_CSS/blob/main/teoria/img_flexbox/align_content.png)
+
+Ejemplo: 
+``.container  {  align-content: flex-start | flex-end | center | space-between | space-around | space-evenly | stretch | start | end | baseline | first baseline | last baseline +  ... safe | unsafe;  } ``
