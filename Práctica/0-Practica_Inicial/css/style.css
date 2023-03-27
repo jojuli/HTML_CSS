@@ -1,0 +1,80 @@
+#foto{
+ width: 350px;
+ height: 250px;
+ border: 2px outset grey;
+ margin: 20px 0 5px 65px;
+ }
+
+ #Bio{
+    margin-left: 25px;
+    background: #6495ED;
+    color: #ffff;
+    width: 470px;
+ }
+
+ .Datos-Personales,
+ .Titulos-Seleccion,
+ .Titulos-Club{
+    margin-left: 25px;
+ }
+
+ .Datos-Personales{
+    border: 1px groove #6666;
+    width: 450px;
+    height: 215px;
+    background-color:#f5f5f1;
+    cursor: pointer;
+
+ }
+ .Datos-Personales ul li{
+     margin-top: 15px;
+     font-size: medium;
+     font-weight: lighter;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     color:darkslategrey   
+    }
+ .Datos-Personales ul,
+ .Titulos-Seleccion ul,
+ .Titulos-Club ul{
+    list-style: none;
+ }
+
+ .Titulos-Seleccion{
+    border: 1px groove #6666;
+    width: 450px;
+    margin-top: 20px;
+    height: 270px;
+    background-color:#f5f5f1;
+ }
+ .Titulos-Seleccion ul li{
+    margin-top: 15px;
+    font-size: medium;
+     font-weight: lighter;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     color:darkslategrey
+ }
+
+ .Titulos-Club{
+    border: 1px groove #6666;
+    width: 450px;
+    margin-top: 20px;
+    height: 285px;
+    background-color:#f5f5f1;
+    margin-bottom: 10px;
+    
+ }
+
+ .Titulos-Club ul li{
+    margin-top: 15px;
+    font-size: medium;
+     font-weight: lighter;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     color:darkslategrey
+ }
+ul li{
+   transition: all 3s;
+}
+
+.Datos-Personales:hover{
+   background-color: #CFD8DC;
+}
