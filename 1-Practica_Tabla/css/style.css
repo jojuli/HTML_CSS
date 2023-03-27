@@ -1,0 +1,52 @@
+/*hifyokurto@gufum.com*/
+table{
+    margin: auto;/*propiedad centrada*/
+    margin-top: 50px;
+    text-align: center;/*centrar texto*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    border-collapse: collapse;/*Comprime los elementos y los muestra como una tabla*/
+}
+
+table th,
+table td{
+ border: 1px solid #dee2e6;
+ padding: 5px 10px;
+ 
+}
+
+table th,
+table td:first-child{/*first-child primer hijo*/
+    background-color: #17a2b8;
+    color: #ffff;
+    font-weight: 600;/*grosor de letra*/
+    width: 100px;
+}
+
+table td span{
+    margin-right: 15px;
+    font-size: 17px;
+    cursor: pointer;
+}
+table td span:hover{
+    opacity: 0.7;
+}
+table td span:nth-child(1){
+    color: #17a2b8;
+}
+table td span:nth-child(2){
+    color: #28a745;
+}
+table td span:nth-child(3){
+    color: #dc3545;
+    margin-right: 0px;
+}
+
+/*Colocar color a las filas impares*/
+table tr:nth-child(odd){/*odd => inpares even => pares*/
+    background-color: rgba(0, 0, 0, 0.05);
+}
+/*last-child ultimo hijo*/
+table tr:hover{
+    background-color: rgba(0,0,0,0.075);
+}
