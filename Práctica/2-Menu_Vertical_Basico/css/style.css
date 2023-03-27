@@ -1,0 +1,23 @@
+ul{
+    background-color: #4ebce5;
+    width: 20%;
+    padding: 0;
+}
+
+ul li{
+    list-style: none;/*Quitar las vinetas*/
+    padding: 20px;
+    border-bottom: 1px solid #ffff;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    transition: all 1s;/*Ver Cambios de transicion*/
+}
+
+ul li:hover{
+    background-color: #4394ba;
+}
