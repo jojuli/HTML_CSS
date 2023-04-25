@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    
+}
+#navbar{
+    display: flex;
+    border-bottom: 1px solid gray;
+    padding: 14px 20px;
+    justify-content: space-between;
+    
+}
+
+#parrafo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+p{
+    margin-right: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+button{
+    background-color: white;
+    border-radius: 30px;
+    padding: 8px 24px;
+    border: 2px solid black;
+    
+}
